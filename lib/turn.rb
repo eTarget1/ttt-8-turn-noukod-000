@@ -83,4 +83,3 @@ def turn (board)
     turn(board)
   end
 end
-
