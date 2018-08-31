@@ -10,6 +10,12 @@ puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+#coverts a user's place on the board to the index integer
+def input_to_index(user_input)
+  index = user_input.to_i
+  index -= 1
+  return index
+end
 # def turn
 # puts " please enter a number "
 # user_input = gets.chomp
