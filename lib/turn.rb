@@ -51,7 +51,7 @@ end
 
 # redefined position taken ffrom the users
 
-if (position_taken?(board, index)) == false && (on_board?(index))== true 
+if (position_taken?(board, index)) == false && (on_board?(index))== true
 
 return true
 
