@@ -39,18 +39,18 @@ end
 
 
 def on_board?(num)
-  
+
 if num.between?(0,8) == true
-    
+
 return true
-  
+
 else
-    
+
 return false
 
   end
 end
-    
+
 # redefined position taken ffrom the users
 
 if (position_taken?(board, index)) == false && (on_board?(index)== true )
@@ -58,13 +58,18 @@ if (position_taken?(board, index)) == false && (on_board?(index)== true )
 return true
 
 else
-  
+
 return false
 
 end
 
 end
 
+#Takes a users num and the board, and places the X or O char in that position
+def move(board, index, character = "X")
+  board[index] = character
+  return board
+end
 # def turn
 # puts " please enter a number "
 # user_input = gets.chomp
