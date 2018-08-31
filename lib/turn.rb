@@ -1,5 +1,5 @@
 
-ef display_board(
+def display_board(
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
   puts 'display board'
 #board output
