@@ -18,7 +18,7 @@ def input_to_index(user_input)
 end
 
 
-# defined
+# defined valid_move
 def valid_move?(board, index)
 
   def position_taken?(array, ind)
