@@ -1,5 +1,6 @@
 
-def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+def display_board(board)
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts 'display board'
 #board output
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
