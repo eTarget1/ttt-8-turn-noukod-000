@@ -16,7 +16,7 @@ def input_to_index(user_input)
   index -= 1
   return index
 end
-
+# define
 def valid_move?(board, index)
 
   def position_taken?(array, ind)
