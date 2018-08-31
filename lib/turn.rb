@@ -70,6 +70,8 @@ def move(board, index, character = "X")
   board[index] = character
   return board
 end
+
+
 # def turn
 # puts " please enter a number "
 # user_input = gets.chomp
