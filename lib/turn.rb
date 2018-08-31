@@ -16,6 +16,24 @@ def input_to_index(user_input)
   index -= 1
   return index
 end
+
+def valid_move?(board, index)
+
+  def position_taken?(array, ind)
+
+if array[ind] == " " || array[ind] == ""  || array[ind] == nil
+
+return false
+
+else
+
+return true
+
+end
+
+end
+
+
 # def turn
 # puts " please enter a number "
 # user_input = gets.chomp
